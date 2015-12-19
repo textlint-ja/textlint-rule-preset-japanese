@@ -2,7 +2,7 @@
 
 textlint rule preset for Japanese.
 
-日本語向けのtextlint ruleのプリセットです。
+日本語向けのtextlint ruleのpresetです。
 
 ## Installation
 
