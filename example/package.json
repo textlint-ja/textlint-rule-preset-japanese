@@ -2,7 +2,7 @@
   "name": "example",
   "private": true,
   "scripts": {
-    "pretest": "npm i --link --production",
+    "pretest": "npm i --production",
     "test": "textlint README.md"
   },
   "author": "azu",
@@ -11,6 +11,6 @@
     "textlint-rule-preset-japanese": "file:.."
   },
   "devDependencies": {
-    "textlint": "^5.0.3"
+    "textlint": "^5.1.0"
   }
 }
