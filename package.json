@@ -1,0 +1,41 @@
+{
+  "name": "textlint-rule-preset-japanese",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azu/textlint-rule-preset-japanese.git"
+  },
+  "author": "azu",
+  "email": "azuciao@gmail.com",
+  "homepage": "https://github.com/azu/textlint-rule-preset-japanese",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/azu/textlint-rule-preset-japanese/issues"
+  },
+  "version": "1.0.0",
+  "description": "textlint rule preset for japanese.",
+  "main": "lib/textlint-rule-preset-japanese.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "textlint",
+    "rule",
+    "preset"
+  ],
+  "dependencies": {
+    "textlint-rule-max-ten": "^2.0.0",
+    "textlint-rule-no-double-negative-ja": "^1.0.2",
+    "textlint-rule-no-doubled-joshi": "^2.0.0",
+    "textlint-rule-no-mix-dearu-desumasu": "^1.4.0",
+    "textlint-rule-no-start-duplicated-conjunction": "^1.0.6",
+    "textlint-rule-prh": "^2.2.0",
+    "textlint-rule-sentence-length": "^1.0.4",
+    "textlint-rule-spellcheck-tech-word": "^4.1.0"
+  }
+}
