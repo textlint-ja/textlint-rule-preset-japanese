@@ -1,4 +1,4 @@
-# textlint-rule-preset-japanese
+# textlint-rule-preset-japanese [![Build Status](https://travis-ci.org/azu/textlint-rule-preset-japanese.svg?branch=master)](https://travis-ci.org/azu/textlint-rule-preset-japanese)
 
 textlint rule preset for Japanese.
 
