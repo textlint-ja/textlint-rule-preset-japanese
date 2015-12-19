@@ -21,7 +21,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cd example && npm t"
   },
   "keywords": [
     "textlint",
@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "textlint-rule-max-ten": "^2.0.0",
-    "textlint-rule-no-double-negative-ja": "^1.0.2",
+    "textlint-rule-no-double-negative-ja": "^1.0.3",
     "textlint-rule-no-doubled-joshi": "^2.0.0",
     "textlint-rule-no-mix-dearu-desumasu": "^1.4.0",
     "textlint-rule-no-start-duplicated-conjunction": "^1.0.6",

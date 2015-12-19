@@ -2,7 +2,7 @@
   "name": "example",
   "private": true,
   "scripts": {
-    "pretest": "npm i --production",
+    "pretest": "npm i --link --production",
     "test": "textlint README.md"
   },
   "author": "azu",
