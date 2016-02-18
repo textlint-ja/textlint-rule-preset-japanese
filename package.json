@@ -31,7 +31,7 @@
   "dependencies": {
     "textlint-rule-max-ten": "^2.0.0",
     "textlint-rule-no-double-negative-ja": "^1.0.3",
-    "textlint-rule-no-doubled-joshi": "^2.0.0",
+    "textlint-rule-no-doubled-joshi": "^3.0.0",
     "textlint-rule-no-mix-dearu-desumasu": "^1.4.0",
     "textlint-rule-no-start-duplicated-conjunction": "^1.0.6",
     "textlint-rule-prh": "^2.2.1",
