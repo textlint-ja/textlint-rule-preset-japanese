@@ -4,6 +4,13 @@
 
 日本語向けのtextlint ruleのpresetです。
 
+## 目的
+
+- 技術文書で利用するためのルール集
+- 入れても誤爆が少ないルールに限定する
+    - 明らかな誤爆がある場合は、Issueを立ててください
+- スタイル(スペースの有無など)に関連するルールは含めない
+
 ## Installation
 
     npm install textlint-rule-preset-japanese
@@ -24,7 +31,6 @@
     - JavaScript周りの単語スペルチェック
 - https://github.com/azu/textlint-rule-no-mix-dearu-desumasu
     - 文の敬体(ですます調)、常体(である調)の混合をチェック
-
 
 ## Usage
 
@@ -80,7 +86,6 @@ Options
     }
 }
 ```
-
 
 
 ## Contributing
