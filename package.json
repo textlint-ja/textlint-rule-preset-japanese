@@ -36,6 +36,6 @@
     "textlint-rule-no-start-duplicated-conjunction": "^1.0.6",
     "textlint-rule-prh": "^2.2.1",
     "textlint-rule-sentence-length": "^1.0.4",
-    "textlint-rule-spellcheck-tech-word": "^4.1.1"
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   }
 }
