@@ -33,6 +33,9 @@
     - JavaScript周りの単語スペルチェック
 - https://github.com/azu/textlint-rule-no-mix-dearu-desumasu
     - 文の敬体(ですます調)、常体(である調)の混合をチェック
+- https://github.com/azu/textlint-rule-no-nfd
+    - ホ゜ケット エンシ゛ン のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
+
 
 ## Usage
 
@@ -84,7 +87,11 @@ Options
             "spellcheck-tech-word": true,
             // https://github.com/azu/textlint-rule-no-mix-dearu-desumasu
             // 文の敬体(ですます調)、常体(である調)のチェック
-            "no-mix-dearu-desumasu": true
+            "no-mix-dearu-desumasu": true,
+            // https://github.com/azu/textlint-rule-no-nfd
+            // ホ゜ケット エンシ゛ン
+            // のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
+            "no-nfd": true
        }
     }
 }
