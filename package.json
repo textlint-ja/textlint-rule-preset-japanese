@@ -24,9 +24,10 @@
     "test": "cd example && npm t"
   },
   "keywords": [
-    "textlint",
+    "preset",
     "rule",
-    "preset"
+    "textlint",
+    "textlintrule"
   ],
   "dependencies": {
     "textlint-rule-max-ten": "^2.0.2",
