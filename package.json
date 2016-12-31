@@ -2,14 +2,14 @@
   "name": "textlint-rule-preset-japanese",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azu/textlint-rule-preset-japanese.git"
+    "url": "git+https://github.com/textlint-ja/textlint-rule-preset-japanese.git"
   },
   "author": "azu",
   "email": "azuciao@gmail.com",
-  "homepage": "https://github.com/azu/textlint-rule-preset-japanese",
+  "homepage": "https://github.com/textlint-ja/textlint-rule-preset-japanese",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/azu/textlint-rule-preset-japanese/issues"
+    "url": "https://github.com/textlint-ja/textlint-rule-preset-japanese/issues"
   },
   "version": "1.3.3",
   "description": "textlint rule preset for japanese.",
