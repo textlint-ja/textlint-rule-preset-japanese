@@ -2,13 +2,12 @@
   "name": "example",
   "private": true,
   "scripts": {
-    "pretest": "npm rm textlint-rule-preset-japanese && npm i --production",
     "test": "textlint README.md"
   },
   "author": "azu",
   "license": "MIT",
   "dependencies": {
-    "textlint": "^6.5.1",
+    "textlint": "^8.2.1",
     "textlint-rule-preset-japanese": "file:.."
   }
 }

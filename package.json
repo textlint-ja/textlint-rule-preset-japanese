@@ -21,7 +21,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "cd example && npm t"
+    "test": "cd example && npm it"
   },
   "keywords": [
     "preset",
@@ -35,10 +35,10 @@
     "textlint-rule-no-doubled-conjunction": "^1.0.2",
     "textlint-rule-no-doubled-conjunctive-particle-ga": "^1.0.2",
     "textlint-rule-no-doubled-joshi": "^3.0.0",
+    "textlint-rule-no-dropping-the-ra": "^1.1.2",
     "textlint-rule-no-mix-dearu-desumasu": "^3.0.0",
     "textlint-rule-no-nfd": "^1.0.1",
-    "textlint-rule-prh": "^3.0.1",
-    "textlint-rule-sentence-length": "^1.0.4",
-    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+    "textlint-rule-prh": "^4.0.1",
+    "textlint-rule-sentence-length": "^1.0.4"
   }
 }
