@@ -56,7 +56,7 @@ Options
     "rules": {
         // それぞれのルールのデフォルト値
         "preset-japanese": {
-             // https://github.com/azu/textlint-rule-max-ten
+             // https://github.com/textlint-ja/textlint-rule-max-ten
              // 一文で使える"、"の数
              "max-ten": {
                  "max": 3
@@ -68,10 +68,10 @@ Options
              // https://github.com/takahashim/textlint-rule-no-doubled-conjunction
              // 同じ接続詞が連続して出現していないかどうか
              "no-doubled-conjunction": true,
-             // https://github.com/azu/textlint-rule-no-double-negative-ja
+             // https://github.com/textlint-ja/textlint-rule-no-double-negative-ja
              // 二重否定の検出
              "no-double-negative-ja": true,
-             // https://github.com/azu/textlint-rule-no-doubled-joshi
+             // https://github.com/textlint-ja/textlint-rule-no-doubled-joshi
              // 二重助詞の検出
              // 連続して同じ助詞が出た場合のみを検出
              "no-doubled-joshi": {
@@ -82,7 +82,7 @@ Options
              "sentence-length": {
                  "max": 100
              },
-             // https://github.com/azu/textlint-rule-no-dropping-the-ra
+             // https://github.com/textlint-ja/textlint-rule-no-dropping-the-ra
              // ら抜き言葉を使用しない
              "no-dropping-the-ra": true,
              // https://github.com/azu/textlint-rule-no-mix-dearu-desumasu
