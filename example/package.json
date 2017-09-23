@@ -2,7 +2,7 @@
   "name": "example",
   "private": true,
   "scripts": {
-    "pretest": "npm rm textlint-rule-preset-japanese && npm i --production",
+    "pretest": "npm rm textlint-rule-preset-japanese && npm i",
     "test": "textlint README.md"
   },
   "author": "azu",
