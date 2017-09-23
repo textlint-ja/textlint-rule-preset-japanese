@@ -29,8 +29,8 @@
     - 二重助詞の検出
 - https://github.com/azu/textlint-rule-sentence-length
     - 一文の最大の長さ
-- https://github.com/azu/textlint-rule-spellcheck-tech-word
-    - JavaScript周りの単語スペルチェック
+- https://github.com/azu/textlint-rule-no-dropping-the-ra
+    - ら抜き言葉を使用し
 - https://github.com/textlint-ja/textlint-rule-no-mix-dearu-desumasu
     - 文の敬体(ですます調)、常体(である調)の混合をチェック
 - https://github.com/azu/textlint-rule-no-nfd
@@ -41,9 +41,9 @@
 
 Via `.textlintrc`
 
-```js
+```json5
 {
-    "rules" : {
+    "rules": {
         "preset-japanese": true
     }
 }
@@ -51,51 +51,78 @@ Via `.textlintrc`
 
 Options
 
-```js
+```json5
 {
-    "rules" : {
+    "rules": {
         // それぞれのルールのデフォルト値
         "preset-japanese": {
-            // https://github.com/textlint-ja/textlint-rule-max-ten
-            // 一文で使える"、"の数
-            "max-ten": {
-                "max": 3
-            },
-            // https://github.com/takahashim/textlint-rule-no-doubled-conjunctive-particle-ga
-            // 逆接の接続助詞「が」が、同一文中に複数回出現していないかどうか
-            // e.g.) 今日は早朝から出発したが、定刻には間に合わなかったが、無事会場に到着した。
-            "no-doubled-conjunctive-particle-ga": true,
-            // https://github.com/takahashim/textlint-rule-no-doubled-conjunction
-            // 同じ接続詞が連続して出現していないかどうか
-            "no-doubled-conjunction": true,
-            // https://github.com/textlint-ja/textlint-rule-no-double-negative-ja
-            // 二重否定の検出
-            "no-double-negative-ja": true,
-            // https://github.com/textlint-ja/textlint-rule-no-doubled-joshi
-            // 二重助詞の検出
-            // 連続して同じ助詞が出た場合のみを検出
-            "no-doubled-joshi": {
-                "min_interval": 1
-            },
-            // https://github.com/azu/textlint-rule-sentence-length
-            // 一文の最大の長さ
-            "sentence-length": {
-                "max": 100
-            },
-            // https://github.com/azu/textlint-rule-spellcheck-tech-word
-            // JavaScript周りの単語スペルチェック
-            "spellcheck-tech-word": true,
-            // https://github.com/textlint-ja/textlint-rule-no-mix-dearu-desumasu
-            // 文の敬体(ですます調)、常体(である調)のチェック
-            "no-mix-dearu-desumasu": true,
-            // https://github.com/azu/textlint-rule-no-nfd
-            // ホ゜ケット エンシ゛ン
-            // のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
-            "no-nfd": true
-       }
+          // https://github.com/azu/textlint-rule-max-ten
+          // 一文で使える"、"の数
+          "max-ten": {
+              "max": 3
+          },
+          // https://github.com/takahashim/textlint-rule-no-doubled-conjunctive-particle-ga
+          // 逆接の接続助詞「が」が、同一文中に複数回出現していないかどうか
+          // e.g.) 今日は早朝から出発したが、定刻には間に合わなかったが、無事会場に到着した。
+          "no-doubled-conjunctive-particle-ga": true,
+          // https://github.com/takahashim/textlint-rule-no-doubled-conjunction
+          // 同じ接続詞が連続して出現していないかどうか
+          "no-doubled-conjunction": true,
+          // https://github.com/azu/textlint-rule-no-double-negative-ja
+          // 二重否定の検出
+          "no-double-negative-ja": true,
+          // https://github.com/azu/textlint-rule-no-doubled-joshi
+          // 二重助詞の検出
+          // 連続して同じ助詞が出た場合のみを検出
+          "no-doubled-joshi": {
+              "min_interval": 1
+          },
+          // https://github.com/azu/textlint-rule-sentence-length
+          // 一文の最大の長さ
+          "sentence-length": {
+              "max": 100
+          },
+          // https://github.com/azu/textlint-rule-no-dropping-the-ra
+          // ら抜き言葉を使用しない
+          "no-dropping-the-ra": true,
+          // https://github.com/azu/textlint-rule-no-mix-dearu-desumasu
+          // 文の敬体(ですます調)、常体(である調)のチェック
+          "no-mix-dearu-desumasu": true,
+          // https://github.com/azu/textlint-rule-no-nfd
+          // ホ゜ケット エンシ゛ン
+          // のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
+          "no-nfd": true
+        }
     }
 }
 ```
+
+## Semantic Versioning Policy
+
+次のルールでバージョンが更新されます。
+
+- Patch リリース
+    - 各ルールのバグ修正 (警告を減らす方向への修正)
+    - ドキュメントの改善
+    - 内部的な変更 (リファクタリングやテストの改善など)
+    - リリース失敗時の再リリース
+- Minor リリース
+    - 各ルールのバグ修正 (警告を増やす方向への修正)
+    - 新オプションの追加
+    - 既存ルールの非推奨化
+- Major リリース
+    - プリセットへのルールの追加
+    - プリセットからルールの削除
+    - 既存のオプション値の変更
+
+更新内容は[Releases page](https://github.com/textlint-ja/textlint-rule-preset-japanese/releases)を参照してください。
+
+## Community
+
+質問は以下のGitterでお願いします。
+
+[![Gitter](https://badges.gitter.im/textlint-ja/textlint-ja.svg)](https://gitter.im/textlint-ja/textlint-ja)
+
 
 
 ## Contributing
