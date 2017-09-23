@@ -21,7 +21,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "cd example && npm t"
+    "test": "cd example && npm it"
   },
   "keywords": [
     "preset",
