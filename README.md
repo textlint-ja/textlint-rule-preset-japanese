@@ -35,7 +35,8 @@
     - 文の敬体(ですます調)、常体(である調)の混合をチェック
 - https://github.com/azu/textlint-rule-no-nfd
     - ホ゜ケット エンシ゛ン のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
-
+- https://github.com/textlint-rule/textlint-rule-no-invalid-control-character
+    - 制御文字の検出
 
 ## Usage
 
@@ -91,7 +92,10 @@ Options
              // https://github.com/azu/textlint-rule-no-nfd
              // ホ゜ケット エンシ゛ン
              // のような、Mac OS XでPDFやFinderからのコピペで発生する濁点のチェック
-             "no-nfd": true
+             "no-nfd": true,
+             // https://github.com/textlint-rule/textlint-rule-no-invalid-control-character
+             // 制御文字の検出
+             "no-invalid-control-character": true
         }
     }
 }
