@@ -82,3 +82,5 @@ crashlytics.properties
 crashlytics-build.properties
 
 
+# use yarn
+package-lock.json
