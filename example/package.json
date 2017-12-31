@@ -7,7 +7,7 @@
   "author": "azu",
   "license": "MIT",
   "dependencies": {
-    "textlint": "^8.2.1",
+    "textlint": "8.2.1",
     "textlint-rule-preset-japanese": "file:.."
   }
 }
