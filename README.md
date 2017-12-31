@@ -1,5 +1,7 @@
 # textlint-rule-preset-japanese [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/textlint-ja/textlint-rule-preset-japanese.svg)](https://greenkeeper.io/)
+
 [textlint rule preset](https://github.com/textlint/textlint/blob/master/docs/create-preset.md "preset") for Japanese.
 
 日本語向けのtextlint ruleのpresetです。
