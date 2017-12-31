@@ -43,7 +43,7 @@ clone-regexp@^1.0.0:
     is-regexp "^1.0.0"
     is-supported-regexp-flag "^1.0.0"
 
-commandpost@^1.2.0:
+commandpost@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/commandpost/-/commandpost-1.2.1.tgz#2e9c4c7508b9dc704afefaa91cab92ee6054cc68"
 
@@ -65,6 +65,10 @@ define-properties@^1.1.2:
   dependencies:
     foreach "^2.0.5"
     object-keys "^1.0.8"
+
+diff@^3.3.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/diff/-/diff-3.4.0.tgz#b1d85507daf3964828de54b37d0d73ba67dda56c"
 
 doublearray@0.0.2:
   version "0.0.2"
@@ -156,11 +160,12 @@ object.assign@^4.0.3:
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
 
-prh@^3.0.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/prh/-/prh-3.1.1.tgz#621f1529f91a23a05e1f3d878869c8a88eb566b4"
+prh@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/prh/-/prh-5.4.3.tgz#d3864a6de2f35c6603e33c700106dce01c22876d"
   dependencies:
-    commandpost "^1.2.0"
+    commandpost "^1.2.1"
+    diff "^3.3.0"
     js-yaml "^3.9.1"
 
 process-nextick-args@~1.0.6:
@@ -295,11 +300,11 @@ textlint-rule-no-nfd@^1.0.1:
     textlint-rule-helper "^1.1.5"
     unorm "^1.4.1"
 
-textlint-rule-prh@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/textlint-rule-prh/-/textlint-rule-prh-4.0.1.tgz#77da9c01bc94a5927b95ebdae673f2536bd7c75d"
+textlint-rule-prh@^5.0.0:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/textlint-rule-prh/-/textlint-rule-prh-5.0.1.tgz#bab66be6b03258880f3fbf466b689ed2ff379b0c"
   dependencies:
-    prh "^3.0.1"
+    prh "^5.4.3"
     textlint-rule-helper "^2.0.0"
     untildify "^3.0.2"
 
