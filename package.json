@@ -40,6 +40,6 @@
     "textlint-rule-no-mix-dearu-desumasu": "^3.0.0",
     "textlint-rule-no-nfd": "^1.0.1",
     "textlint-rule-prh": "^5.0.0",
-    "textlint-rule-sentence-length": "^1.0.4"
+    "textlint-rule-sentence-length": "^2.0.0"
   }
 }
