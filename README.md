@@ -6,10 +6,14 @@
 
 ## 目的
 
-- 技術文書で利用するためのルール集
-- 入れても誤爆が少ないルールに限定する
+- 一般的な文書で利用するためのルール集
+- 入れても誤検知が少ないルールに限定する
     - 明らかな誤爆がある場合は、Issueを立ててください
 - スタイル(スペースの有無など)に関連するルールは含めない
+
+技術的な文章を書くためにより厳しいルールを求める方は次のプリセットを参照してください。
+
+- [textlint-ja/textlint-rule-preset-ja-technical-writing: 技術文書向けのtextlintルールプリセット](https://github.com/textlint-ja/textlint-rule-preset-ja-technical-writing)
 
 ## Installation
 
