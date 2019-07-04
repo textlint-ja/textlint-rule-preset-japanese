@@ -1,6 +1,6 @@
 # textlint-rule-preset-japanese [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese)
 
-[textlint rule preset](https://github.com/textlint/textlint/blob/master/docs/create-preset.md "preset") for Japanese.
+[textlint rule preset](https://github.com/textlint/textlint/blob/master/docs/rule-preset.md "preset") for Japanese.
 
 日本語向けのtextlint ruleのpresetです。
 
