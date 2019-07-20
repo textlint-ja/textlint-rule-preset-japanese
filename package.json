@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/textlint-ja/textlint-rule-preset-japanese/issues"
   },
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "textlint rule preset for japanese.",
   "main": "lib/textlint-rule-preset-japanese.js",
   "files": [
