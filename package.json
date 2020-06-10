@@ -14,7 +14,9 @@
   "version": "4.0.4",
   "description": "textlint rule preset for japanese.",
   "main": "lib/textlint-rule-preset-japanese.js",
-  "files": ["lib"],
+  "files": [
+    "lib"
+  ],
   "directories": {
     "test": "test"
   },
@@ -23,7 +25,12 @@
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger"
   },
-  "keywords": ["preset", "rule", "textlint", "textlintrule"],
+  "keywords": [
+    "preset",
+    "rule",
+    "textlint",
+    "textlintrule"
+  ],
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^1.2.0",
     "@textlint/module-interop": "^1.0.1",
@@ -39,6 +46,7 @@
     "textlint-rule-sentence-length": "^2.1.1"
   },
   "devDependencies": {
+    "semver": "^7.3.2",
     "shipjs": "0.19.0"
   }
 }
