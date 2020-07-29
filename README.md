@@ -34,7 +34,7 @@
 - https://github.com/azu/textlint-rule-sentence-length
     - 一文の最大の長さ
 - https://github.com/azu/textlint-rule-no-dropping-the-ra
-    - ら抜き言葉を使用し
+    - ら抜き言葉を使用しない
 - https://github.com/textlint-ja/textlint-rule-no-mix-dearu-desumasu
     - 文の敬体(ですます調)、常体(である調)の混合をチェック
 - https://github.com/azu/textlint-rule-no-nfd
