@@ -47,6 +47,6 @@
   },
   "devDependencies": {
     "semver": "^7.3.2",
-    "shipjs": "0.20.0"
+    "shipjs": "0.22.0"
   }
 }
