@@ -123,6 +123,8 @@ Options
     - プリセットからルールの削除
     - 既存のオプション値の変更
 
+textlint-rule-preset-japaneseは、6ヶ月ごとにmajorアップデートを行います。
+
 更新内容は[Releases page](https://github.com/textlint-ja/textlint-rule-preset-japanese/releases)を参照してください。
 
 ## Community
