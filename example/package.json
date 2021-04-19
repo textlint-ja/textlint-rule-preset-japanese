@@ -1,12 +1,16 @@
 {
-  "name": "example",
   "private": true,
+  "name": "textlint-rule-preset-japanese",
+  "homepage": "https://github.com/textlint-ja/textlint-rule-preset-japanese",
+  "version": "1.0.0-local",
   "scripts": {
-    "test": "textlint README.md"
+    "test": "textlint README.md",
+    "website": "textlint-website-generator --output-dir ./dist"
   },
   "author": "azu",
   "license": "MIT",
   "dependencies": {
+    "@textlint/website-generator": "^0.10.3",
     "textlint": "^11.0.0",
     "textlint-rule-preset-japanese": "file:.."
   }

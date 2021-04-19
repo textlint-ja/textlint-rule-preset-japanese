@@ -21,7 +21,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "cd example && npm it",
+    "test": "cd example && yarn install && npm test",
     "release:prepare": "shipjs prepare",
     "release:trigger": "shipjs trigger"
   },
