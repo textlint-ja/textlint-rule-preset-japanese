@@ -2757,12 +2757,12 @@ textlint-rule-max-ten@^4.0.0:
     textlint-rule-helper "^2.0.0"
     textlint-util-to-string "^3.1.1"
 
-textlint-rule-no-double-negative-ja@^1.0.3:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/textlint-rule-no-double-negative-ja/-/textlint-rule-no-double-negative-ja-1.0.5.tgz#ba30db424dc7ef84ceda6d103781b14cd20cc764"
-  integrity sha1-ujDbQk3H74TO2m0QN4GxTNIMx2Q=
+textlint-rule-no-double-negative-ja@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-double-negative-ja/-/textlint-rule-no-double-negative-ja-2.0.0.tgz#68bf25027fb1626393cba9aa18b3bb245cdaea68"
+  integrity sha512-czi6ung/vpSaxGjrgbBN6iapIqd50tqBbsWaIvonhv2cHe1qAqgqS9C02YrSZPjnX7fkxs4pKQr4p+qK1rGzGA==
   dependencies:
-    kuromojin "^1.1.0"
+    kuromojin "^3.0.0"
 
 textlint-rule-no-doubled-conjunction@^1.0.2:
   version "1.0.2"
