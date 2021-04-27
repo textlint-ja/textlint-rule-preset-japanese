@@ -133,7 +133,9 @@ textlint-rule-preset-japaneseは、6ヶ月ごとにmajorアップデートを行
 
 [![Gitter](https://badges.gitter.im/textlint-ja/textlint-ja.svg)](https://gitter.im/textlint-ja/textlint-ja)
 
+## その他のルール
 
+- [Collection of textlint rule · textlint/textlint Wiki](https://github.com/textlint/textlint/wiki/Collection-of-textlint-rule)
 
 ## Contributing
 
