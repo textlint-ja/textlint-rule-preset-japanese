@@ -43,6 +43,8 @@
     - 制御文字の検出
 - https://github.com/textlint-rule/textlint-rule-no-zero-width-spaces
     - ゼロ幅スペースの検出
+- https://github.com/xl1/textlint-rule-no-kangxi-radicals
+    - 康煕部首の検出
 
 ## Usage
 
@@ -104,7 +106,10 @@ Options
              "no-invalid-control-character": true,
              // https://github.com/textlint-rule/textlint-rule-no-zero-width-spaces
              // ゼロ幅スペースの検出
-             "no-zero-width-spaces": true
+             "no-zero-width-spaces": true,
+             // https://github.com/xl1/textlint-rule-no-kangxi-radicals
+             // 康煕部首の検出
+             "no-kangxi-radicals": true
         }
     }
 }
