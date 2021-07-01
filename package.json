@@ -22,8 +22,7 @@
   },
   "scripts": {
     "test": "cd example && yarn install && npm test",
-    "release:prepare": "shipjs prepare",
-    "release:trigger": "shipjs trigger"
+    "release": "changeset publish"
   },
   "keywords": [
     "preset",
@@ -48,6 +47,7 @@
     "textlint-rule-sentence-length": "^2.1.1"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.16.0",
     "semver": "^7.3.2",
     "shipjs": "0.23.2"
   }
