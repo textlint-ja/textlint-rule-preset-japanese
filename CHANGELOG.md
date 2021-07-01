@@ -1,3 +1,22 @@
+# [7.0.0](https://github.com/textlint-ja/textlint-rule-preset-japanese/compare/v6.0.1...v7.0.0) (2021-07-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @textlint-rule/textlint-rule-no-invalid-control-character to v2 ([#60](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/60)) ([2aa11c7](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/2aa11c7d4801b24407d47d1450f6bd2032bc1429))
+* **deps:** update dependency @textlint/module-interop to v12 ([#65](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/65)) ([d3cf7c2](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/d3cf7c22a4fa692198aaa9850b83570367430fb1))
+* **deps:** update dependency @textlint/website-generator to ^0.11.0 ([#63](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/63)) ([4c334d1](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/4c334d1f93129f8ca22350767cb17f5e16d8cca5))
+* **deps:** update dependency @textlint/website-generator to ^0.12.0 ([#67](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/67)) ([981fa2a](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/981fa2a1d62d1a299c27bce8b786a7ea479a2840))
+* **deps:** update dependency textlint to v12 ([#66](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/66)) ([80ab53a](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/80ab53aa3b192a17488caa37a4a6365e62069f58))
+
+
+### Features
+
+* Add no-kangxi-radicals ([#69](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/69)) ([4fa530d](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/4fa530d61f48c6d67c6411dc3aa3ace2ab7d5afb))
+* **rule:** no-zero-width-spaces ([#61](https://github.com/textlint-ja/textlint-rule-preset-japanese/issues/61)) ([7d98d32](https://github.com/textlint-ja/textlint-rule-preset-japanese/commit/7d98d320f6ba964ae625b8ecd23976fa7d2cedad))
+
+
+
 # [6.0.0](https://github.com/textlint-ja/textlint-rule-preset-japanese/compare/v5.0.0...v6.0.0) (2021-04-25)
 
 
