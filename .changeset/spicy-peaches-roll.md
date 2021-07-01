@@ -1,5 +1,5 @@
 ---
-"textlint-rule-preset-japanese": minor
+"textlint-rule-preset-japanese": major
 ---
 
 [textlint-rule/textlint-rule-sentence-length v3.0.0](https://github.com/textlint-rule/textlint-rule-sentence-length/releases/v3.0.0)へアップデート
