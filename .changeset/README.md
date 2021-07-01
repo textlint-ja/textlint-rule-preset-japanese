@@ -5,14 +5,29 @@ Pull Requestを出すと、`.changesets/UNIQUE_ID.md` に変更履歴を書く�
 
 changesetファイルには、次の形式で変更点を書いていきます。
 
+既存のルールを更新するとき
+
 ```markdown
 ---
 "textlint-rule-preset-japanese": major
 ---
 
-:new: [ルール名](https://example.com)を追加 or 更新
+:sparkles: [ルール名](https://example.com)をアップデート
 
 変更点の解説
+
+```
+
+新しいルールを追加するとき
+
+```markdown
+---
+"textlint-rule-preset-japanese": major
+---
+
+:new: [ルール名](https://example.com)を追加
+
+追加したルールの解説
 
 ```
 
