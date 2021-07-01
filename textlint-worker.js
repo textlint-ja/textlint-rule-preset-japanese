@@ -53,7 +53,7 @@ e.exports=function(e){return null!=e&&null!=e.constructor&&"function"==typeof e.
  *
  * Copyright (c) 2015-2017, Jon Schlinkert.
  * Released under the MIT License.
- */var r=n(4300);e.exports=function(e){return r(e)||"function"==typeof e||Array.isArray(e)}},4300:(e,t,n)=>{"use strict";
+ */var r=n(9763);e.exports=function(e){return r(e)||"function"==typeof e||Array.isArray(e)}},9763:(e,t,n)=>{"use strict";
 /*!
  * is-plain-object <https://github.com/jonschlinkert/is-plain-object>
  *
