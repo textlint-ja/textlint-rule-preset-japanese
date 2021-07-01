@@ -3504,6 +3504,13 @@ textlint-rule-no-dropping-the-ra@^3.0.0:
     kuromojin "^3.0.0"
     textlint-rule-helper "^2.1.1"
 
+textlint-rule-no-kangxi-radicals@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/textlint-rule-no-kangxi-radicals/-/textlint-rule-no-kangxi-radicals-0.1.0.tgz#a765c5711570192cfc85caaf68e7a5814346c6cb"
+  integrity sha512-O5+VdjE70abZbLIsSSxbenXJTZvUi5HYY3CkXjcIYTbnytjqH0Wrz/P7MHp15YTK8EChHYKiqKNkcsbdOkmIEg==
+  dependencies:
+    match-index "^1.0.3"
+
 textlint-rule-no-mix-dearu-desumasu@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/textlint-rule-no-mix-dearu-desumasu/-/textlint-rule-no-mix-dearu-desumasu-5.0.0.tgz#c17ebc015cafc75ca38d10766f18c7593ee9c239"
@@ -3538,6 +3545,7 @@ textlint-rule-no-zero-width-spaces@^1.0.1:
     textlint-rule-no-doubled-conjunctive-particle-ga "^2.0.1"
     textlint-rule-no-doubled-joshi "^4.0.0"
     textlint-rule-no-dropping-the-ra "^3.0.0"
+    textlint-rule-no-kangxi-radicals "^0.1.0"
     textlint-rule-no-mix-dearu-desumasu "^5.0.0"
     textlint-rule-no-nfd "^1.0.1"
     textlint-rule-no-zero-width-spaces "^1.0.1"
@@ -3645,9 +3653,9 @@ traverse@^0.6.6:
   integrity sha1-y99WD9e5r2MlAv7UD5GMFX6pcTc=
 
 trim-newlines@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.0.tgz#79726304a6a898aa8373427298d54c2ee8b1cb30"
-  integrity sha512-C4+gOpvmxaSMKuEf9Qc134F1ZuOHVXKRbtEflf4NTtuuJDEIJ9p5PXsalL8SkeRw+qit1Mo+yuvMPAKwWg/1hA==
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/trim-newlines/-/trim-newlines-3.0.1.tgz#260a5d962d8b752425b32f3a7db0dcacd176c144"
+  integrity sha512-c1PTsA3tYrIsLGkJkzHF+w9F2EyxfXGo4UyJc4pFL++FMjnq0HJS69T3M7d//gKrFKwy429bouPescbjecU+Zw==
 
 trough@^1.0.0:
   version "1.0.5"
