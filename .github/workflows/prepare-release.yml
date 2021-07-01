@@ -23,7 +23,6 @@ jobs:
             - [ ] Version PackagesのPRをマージ
             - [ ] 新しいバージョンがリリースされたことを確認
 
-            - [Work this week](https://github.com/orgs/github/projects/3)
           pinned: false
           close-previous: true
         env:
