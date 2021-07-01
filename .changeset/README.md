@@ -10,7 +10,7 @@ changesetファイルには、次の形式で変更点を書いていきます�
 "textlint-rule-preset-japanese": major
 ---
 
-[ルールへのリンク](https://example.com) @ バージョン
+:new: [ルール名](https://example.com)を追加 or 更新
 
 変更点の解説
 
