@@ -17,7 +17,16 @@
 
 ## Installation
 
+[npm](https://www.npmjs.com/)コマンドを使ってインストールできます。
+
     npm install textlint-rule-preset-japanese
+
+安定版は、半年(1月と7月)に一度更新されます。
+
+次のように`@next`をつけることで、次期バージョンをインストールして試せます。
+安定版と次期バージョンの差分は[Version PackagesのPR](https://github.com/textlint-ja/textlint-rule-preset-japanese/pulls?q=is%3Apr+is%3Aopen+Version+Packages)で確認できます。
+
+    npm install textlint-rule-preset-japanese@next
 
 このpresetは以下のルールを含んでいます。
 
