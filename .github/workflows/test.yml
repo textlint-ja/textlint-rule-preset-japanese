@@ -5,10 +5,10 @@ env:
 jobs:
   test:
     name: "Test on Node.js ${{ matrix.node_version }}"
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: [12.x, 14.x]
+        node_version: [16, 18]
     steps:
       - name: checkout
         uses: actions/checkout@v3
