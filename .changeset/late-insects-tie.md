@@ -1,5 +1,5 @@
 ---
-"textlint-rule-preset-japanese": patch
+"textlint-rule-preset-japanese": major
 ---
 
 ## Breaking Changes
