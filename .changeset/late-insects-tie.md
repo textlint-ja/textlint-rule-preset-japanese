@@ -2,13 +2,12 @@
 "textlint-rule-preset-japanese": major
 ---
 
-## Breaking Changes
+[sentence-splitter v5.0.0](https://github.com/textlint-rule/sentence-splitter/releases/tag/v5.0.0)へのアップデートに対応する変更が含まれています。
 
 > [!WARNING]
 > Node.js 18+が必要になります。
 
 次のルールをアップデートしています。
-[sentence-splitter v5.0.0](https://github.com/textlint-rule/sentence-splitter/releases/tag/v5.0.0)へのアップデートに対応する変更が含まれています。
 
 - [textlint-ja/textlint-rule-max-ten: textlint rule that limit maxinum ten(、) count of sentence.](https://github.com/textlint-ja/textlint-rule-max-ten)
   - [Release v5.0.0 · textlint-ja/textlint-rule-max-ten](https://github.com/textlint-ja/textlint-rule-max-ten/releases/tag/v5.0.0)
