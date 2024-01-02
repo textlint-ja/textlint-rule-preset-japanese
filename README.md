@@ -1,4 +1,4 @@
-# textlint-rule-preset-japanese [![Build Status](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese.svg?branch=master)](https://travis-ci.org/textlint-ja/textlint-rule-preset-japanese)
+# textlint-rule-preset-japanese [![Actions Status: test](https://github.com/textlint-ja/textlint-rule-preset-japanese/actions/workflows/test.yml/badge.svg)](https://github.com/textlint-ja/textlint-rule-preset-japanese/actions/workflows/test.yml)
 
 [textlint rule preset](https://github.com/textlint/textlint/blob/master/docs/rule-preset.md "preset") for Japanese.
 
