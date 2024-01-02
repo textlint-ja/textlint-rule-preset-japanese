@@ -1,5 +1,11 @@
 # textlint-rule-preset-japanese
 
+## 10.0.3
+
+### Patch Changes
+
+- f073e8e: CI: add NODE_AUTH_TOKEN
+
 ## 10.0.2
 
 ### Patch Changes
