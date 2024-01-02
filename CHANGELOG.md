@@ -1,5 +1,11 @@
 # textlint-rule-preset-japanese
 
+## 10.0.2
+
+### Patch Changes
+
+- d8bf2ce: CI: add git checkout master
+
 ## 10.0.1
 
 ### Patch Changes
