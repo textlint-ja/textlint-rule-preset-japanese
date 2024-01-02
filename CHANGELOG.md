@@ -1,5 +1,11 @@
 # textlint-rule-preset-japanese
 
+## 10.0.1
+
+### Patch Changes
+
+- d04e540: CI: use changesets/action@v1
+
 ## 10.0.0
 
 ### Major Changes
