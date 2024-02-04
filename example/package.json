@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@textlint/website-generator": "^0.16.0",
-    "textlint": "^13.0.0",
+    "textlint": "^14.0.0",
     "textlint-rule-preset-japanese": "file:.."
   }
 }
