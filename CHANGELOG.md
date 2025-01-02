@@ -1,5 +1,13 @@
 # textlint-rule-preset-japanese
 
+## 10.0.4
+
+### Patch Changes
+
+- 09e346a: fix(deps): update dependency @textlint-rule/textlint-rule-no-invalid-control-character to v3
+  Node.js 18+が必要になりました。
+  https://github.com/textlint-rule/textlint-rule-no-invalid-control-character/releases/tag/v3.0.0
+
 ## 10.0.3
 
 ### Patch Changes
