@@ -299,10 +299,10 @@
   resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-4.4.2.tgz#d3fda5c9086baba04bc75440039ccf18415c8446"
   integrity sha512-m5brKbI7UY/Q8sbIZ7z1KB8ls04nRILshz5fPQ4EZ04jL19qrrUHJR8A6nK3vJ/GelkDWl4I0VDYSAjLEFQV8g==
 
-"@textlint/module-interop@^14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-14.0.0.tgz#3ceb1fb1398a9c6652e20214367606d9d55c4490"
-  integrity sha512-QjSSwW2Dh+NEhWH6nsnVaJ9NI7MjAFUk96M8x+BTg7i7PES7cFAvjVCR2hgetrKhJWl3YKsiuWZ7f7tUkGCimw==
+"@textlint/module-interop@^15.0.0":
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/@textlint/module-interop/-/module-interop-15.0.0.tgz#6ff5ae9f3b28e08b307470f6637ad8fbece3ec80"
+  integrity sha512-suDd04noltxUh43Md6ckmYc4IysWcUhJTdQ1EYc89OY5S1ZE2N8WO733c5GGNQ1KYcjaXZgeoHTnGpz2W0eoGQ==
 
 "@textlint/regexp-string-matcher@^2.0.2":
   version "2.0.2"
