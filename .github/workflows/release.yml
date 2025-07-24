@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
           # This makes Actions fetch all Git history so that Changesets can generate changelogs with the correct commits
           fetch-depth: 0
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
         with:
           registry-url: 'https://registry.npmjs.org' # to create .npmrc file with NODE_AUTH_TOKEN
           node-version: 18
@@ -28,7 +28,7 @@ jobs:
         run: yarn install
       - name: Create Release Pull Request or Publish to npm
         id: changesets
-        uses: changesets/action@v1
+        uses: changesets/action@e0145edc7d9d8679003495b11f87bd8ef63c0cba # v1.5.3
         with:
           publish: yarn run release
         env:

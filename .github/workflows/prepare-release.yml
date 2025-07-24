@@ -12,7 +12,7 @@ jobs:
       issues: write
     steps:
       - name: Create team sync issue
-        uses: imjohnbo/issue-bot@v3.4
+        uses: imjohnbo/issue-bot@572eed14422c4d6ca37e870f97e7da209422f5bd # v3.4.4
         with:
           assignees: "azu"
           labels: "Type: Release"
