@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@3235b876344d2a9aa001b8d1453c930bba69e610 # v3.9.1
         with:
           registry-url: 'https://registry.npmjs.org' # to create .npmrc file with NODE_AUTH_TOKEN
-          node-version: 18
+          node-version: 22
       - name: Install Dependencies
         run: yarn install
       - name: Create Release Pull Request or Publish to npm
