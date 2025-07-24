@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "@textlint-rule/textlint-rule-no-invalid-control-character": "^3.0.0",
-    "@textlint/module-interop": "^14.0.0",
+    "@textlint/module-interop": "^15.0.0",
     "textlint-rule-max-ten": "^5.0.0",
     "textlint-rule-no-double-negative-ja": "^2.0.1",
     "textlint-rule-no-doubled-conjunction": "^3.0.0",
