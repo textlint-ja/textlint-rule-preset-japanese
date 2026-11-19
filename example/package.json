@@ -10,8 +10,8 @@
   "author": "azu",
   "license": "MIT",
   "dependencies": {
-    "@textlint/website-generator": "^0.18.0",
-    "textlint": "^16.0.0",
+    "@textlint/website-generator": "^0.18.5",
+    "textlint": "^16.1.1",
     "textlint-rule-preset-japanese": "file:.."
   }
 }
