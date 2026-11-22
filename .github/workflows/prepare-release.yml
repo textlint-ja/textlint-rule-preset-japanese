@@ -8,6 +8,7 @@ jobs:
   create_issue:
     name: Create ReleaseIssue
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       issues: write
     steps:
@@ -21,7 +22,8 @@ jobs:
             ### 次のリリースの準備ができました
 
             - [ ] マージ忘れのPRがないかを確認
-            - [ ] Version PackagesのPRをマージ
+            - [ ] Create Release PR のワークフローを実行して、Release PR をマージ
+            - [ ] npm で staged のバージョンを approve
             - [ ] 新しいバージョンがリリースされたことを確認
 
           pinned: false
